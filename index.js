@@ -5,28 +5,28 @@ const   http = require('http'), //HTTP server
         xmlParse = require('xslt-processor').xmlParse, //XML handling
         xsltProcess = require('xslt-processor').xsltProcess, //XSLT handling
         router = express(), //Init our router
-        // xml2js = require('xml2js'),
+        xml2js = require('xml2js'),
         server = http.createServer(router); //Init our server
         
         router.use(express.static(path.resolve(__dirname,'views')));
         router.use(express.urlencoded({extended: true}));
         router.use(express.json());
 
-// function XMLtoJSON(filename, cb){
-//     let filepath = path.normalize(path.join(__dirname, filename));
-//     fs.readFile(filepath, 'utf8', function(err, xmlStr){
-//         if (err) throw (err);
-//         xml2js.parseString(xmlStr, {}, cb);
-//     });
-// };
+function XMLtoJSON(filename, cb){
+    let filepath = path.normalize(path.join(__dirname, filename));
+    fs.readFile(filepath, 'utf8', function(err, xmlStr){
+        if (err) throw (err);
+        xml2js.parseString(xmlStr, {}, cb);
+    });
+};
 
-// function JSONtoXML(filename, obj, cb){
-//     let filepath = path.normalize(path.join(__dirname, filename));
-//     let builder = new xml2js.Builder();
-//     let xml = builder.buildObject(obj);
-//     fs.unlinkSync(filepath);
-//     fs.writeFile(filepath, xml, cb);
-// };
+function JSONtoXML(filename, obj, cb){
+    let filepath = path.normalize(path.join(__dirname, filename));
+    let builder = new xml2js.Builder();
+    let xml = builder.buildObject(obj);
+    fs.unlinkSync(filepath);
+    fs.writeFile(filepath, xml, cb);
+};
 
 router.get('/get/html', function(req, res) {
 
@@ -78,7 +78,7 @@ router.post('/post/delete', function (req,res) {
     deleteJSON(req.body);
 
     res.redirect('back');
-})
+});
 
 server.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function() {
     const addr = server.address();
