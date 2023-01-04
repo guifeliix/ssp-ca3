@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<menu>
+  <category name="Pilsner">
+    <item>
+      <listing>Pilsner Urquell 500ml Bottle</listing>
+      <price>2.75</price>
+    </item>
+    <item zero="true">
+      <listing>Carlsberg 0.0% 330ml Bottle</listing>
+      <price>2.59</price>
+    </item>
+    <item >
+      <listing>Dublin City Brewing Company Pioneer Pilsner 440ml Can</listing>
+      <price>3.59</price>
+    </item>
+  </category>
+  <category name="Lager">
+    <item>
+      <listing>Five Lamps 660ml Bottle</listing>
+      <price>4.59</price>
+    </item>
+    <item zero="true">
+      <listing>Heineken 0.0% 330ml Bottle</listing>
+      <price>2.79</price>
+    </item>
+    <item>
+      <listing>Hop House 500ml can</listing>
+      <price>2.99</price>
+    </item>
+  </category>
+  <category name="IPA">
+    <item>
+      <listing>Lagunitas IPA 500ml Bottle</listing>
+      <price>4.00</price>
+    </item>
+    <item zero="true">
+      <listing>Lagunitas IPA 0.0% 500ml Bottle</listing>
+      <price>3.80</price>
+    </item>
+    <item >
+      <listing>BRÚ Brewery IPA 500ml Can</listing>
+      <price>4.10</price>
+    </item>
+  </category>
+  <category name="Red Ale">
+    <item>
+      <listing>Smithwicks Red Ale 500ml Bottle</listing>
+      <price>2.75</price>
+    </item>
+    <item>
+      <listing>BRÚ Brewery Red Ale Irish Craft Beer 500ml Bottle</listing>
+      <price>2.90</price>
+      </item>  
+  </category>
+  <category name="Wheat">
+    <item>
+      <listing>Erdinger Heffe Weissbier 500ml Bottle</listing>
+      <price>3.25</price>
+    </item>
+    <item zero="true">
+      <listing>Erdinger Alkoholfrei 0.0% 500ml Bottle</listing>
+      <price>2.50</price>
+    </item>
+    <item>
+      <listing>Paulaner Hefe Weissbier 500ml</listing>
+      <price>3.20</price>
+    </item>
+  </category>
+  <category name="Stout">
+    <item>
+      <listing>Guinness 500ml Can</listing>
+      <price>2.90</price>
+    </item>
+    <item zero="true">
+      <listing>Guinness 0.0% 500ml Can</listing>
+      <price>2.50</price>
+    </item>
+    <item>
+      <listing>Murphy's Stout 4.0% 500ml Can</listing>
+      <price>2.50</price>
+    </item>
+    
+  </category>
+</menu>
