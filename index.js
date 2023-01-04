@@ -12,21 +12,21 @@ const   http = require('http'), //HTTP server
         router.use(express.urlencoded({extended: true}));
         router.use(express.json());
 
-function XMLtoJSON(filename, cb){
-    let filepath = path.normalize(path.join(__dirname, filename));
-    fs.readFile(filepath, 'utf8', function(err, xmlStr){
-        if (err) throw (err);
-        xml2js.parseString(xmlStr, {}, cb);
-    });
-};
+// function XMLtoJSON(filename, cb){
+//     let filepath = path.normalize(path.join(__dirname, filename));
+//     fs.readFile(filepath, 'utf8', function(err, xmlStr){
+//         if (err) throw (err);
+//         xml2js.parseString(xmlStr, {}, cb);
+//     });
+// };
 
-function JSONtoXML(filename, obj, cb){
-    let filepath = path.normalize(path.join(__dirname, filename));
-    let builder = new xml2js.Builder();
-    let xml = builder.buildObject(obj);
-    fs.unlinkSync(filepath);
-    fs.writeFile(filepath, xml, cb);
-};
+// function JSONtoXML(filename, obj, cb){
+//     let filepath = path.normalize(path.join(__dirname, filename));
+//     let builder = new xml2js.Builder();
+//     let xml = builder.buildObject(obj);
+//     fs.unlinkSync(filepath);
+//     fs.writeFile(filepath, xml, cb);
+// };
 
 router.get('/get/html', function(req, res) {
 
