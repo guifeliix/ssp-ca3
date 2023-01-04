@@ -45,7 +45,7 @@
 		<form class="indent">
 			<p><input type="button" name="btnCalcBill" value="Calculate Bill" id="calcBill"/>
 			Total:
-			<input type="text" name="txtBillAmt"/><input type="checkbox" name="cbOpts" value="isZero" id="showZero"/><label for="showDecaf">HightLight Decaf Drinks</label>
+			<input type="text" name="txtBillAmt"/><input type="checkbox" name="cbOpts" value="isZero" id="showZero"/><label for="showDecaf">HightLight Zero Alcohol Beers</label>
 			</p>
 	</xsl:template>
 </xsl:transform>
