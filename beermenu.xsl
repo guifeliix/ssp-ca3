@@ -4,6 +4,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<link rel="stylesheet" href="/css/style.css"/>
+		<script type="text/javascript" src="/js/script.js">x</script>
 	</head>
 		<table id="menuTable" border="1" class="indent">
 			<thead>
@@ -41,5 +42,10 @@
 				</xsl:for-each>
 			</tbody>
 		</table>
+		<form class="indent">
+			<p><input type="button" name="btnCalcBill" value="Calculate Bill" id="calcBill"/>
+			Total:
+			<input type="text" name="txtBillAmt"/><input type="checkbox" name="cbOpts" value="isZero" id="showZero"/><label for="showDecaf">HightLight Decaf Drinks</label>
+			</p>
 	</xsl:template>
 </xsl:transform>
