@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:transform xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0">
 	<xsl:template match="/">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<link rel="stylesheet" href="/css/style.css"/>
+	</head>
 		<table id="menuTable" border="1" class="indent">
 			<thead>
 				<tr>
@@ -8,6 +12,8 @@
 					<th>Item</th>
 					<th>Price</th>
 				</tr>
+
+				
 			</thead>
 			<tbody>
 				<xsl:for-each select="//category">
