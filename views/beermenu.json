@@ -1,0 +1,102 @@
+{
+    "beertype": [
+        {
+            "type": "Pilsner",
+            "beer": [
+                {
+                    "listing": "Pilsner Urquell 500ml Bottle",
+                    "price": 2.75
+                },
+                {
+                    "listing": "Carlsberg 0.0% 330ml Bottle",
+                    "price": 2.59
+                },
+                {
+                    "listing": "Dublin City Brewing Company Pioneer Pilsner 440ml Can",
+                    "price": 3.59
+                }
+            ]
+        },
+        {
+            "type": "Lager",
+            "beer": [
+                {
+                    "listing": "Five Lamps 660ml Bottle",
+                    "price": 4.59
+                },
+                {
+                    "listing": "Heineken 0.0% 330ml Bottle",
+                    "price": 2.79
+                },
+                {
+                    "listing": "Hop House 500ml can",
+                    "price": 2.99
+                }
+            ]
+        },
+        {
+            "type": "IPA",
+            "beer": [
+                {
+                    "listing": "Lagunitas IPA 500ml Bottle",
+                    "price": 4
+                },
+                {
+                    "listing": "Lagunitas IPA 0.0% 500ml Bottle",
+                    "price": 3.8
+                },
+                {
+                    "listing": "BRÚ Brewery IPA 500ml Can",
+                    "price": 4.1
+                }
+            ]
+        },
+        {
+            "type": "Red Ale",
+            "beer": [
+                {
+                    "listing": "Smithwicks Red Ale 500ml Bottle",
+                    "price": 2.75
+                },
+                {
+                    "listing": "BRÚ Brewery Red Ale Irish Craft Beer 500ml Bottle",
+                    "price": 2.9
+                }
+            ]
+        },
+        {
+            "type": "Wheat",
+            "beer": [
+                {
+                    "listing": "Erdinger Heffe Weissbier 500ml Bottle",
+                    "price": 3.25
+                },
+                {
+                    "listing": "Erdinger Alkoholfrei 0.0% 500ml Bottle",
+                    "price": 2.5
+                },
+                {
+                    "listing": "Paulaner Hefe Weissbier 500ml",
+                    "price": 3.2
+                }
+            ]
+        },
+        {
+            "type": "Stout",
+            "beer": [
+                {
+                    "listing": "Guinness 500ml Can",
+                    "price": 2.9
+                },
+                {
+                    "listing": "Guinness 0.0% 500ml Can",
+                    "price": 2.5
+                },
+                {
+                    "listing": "Murphy's Stout 4.0% 500ml Can",
+                    "price": 2.5
+                }
+            ]
+        }
+    ]
+}
