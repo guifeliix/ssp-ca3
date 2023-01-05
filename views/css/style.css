@@ -1,0 +1,36 @@
+body {
+    margin-bottom: 60px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    font-weight: bold;
+    background-color: #3c6798;
+    color: #FFF;
+    border: 1px solid black;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+td {
+    border: 1px solid black;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+td:nth-child(1), td:nth-child(3) {
+    text-align: center;
+}
+
+.selected {
+    background-color: #dc3545;
+    color: #FFF;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
